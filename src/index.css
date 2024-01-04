@@ -1,0 +1,21 @@
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* Set default font family */
+  -webkit-font-smoothing: antialiased; /* Improve the rendering of fonts on webkit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Improve the rendering of fonts on Mozilla Firefox for Mac OS X */
+  background-color: #000; /* Set background color to black */
+  color: #0f0; /* Set text color to green */
+}
+
+.container {
+  width: 100vw; /* Set width to 100% of the viewport width */
+  height: 100vh; /* Set height to 100% of the viewport height */
+  overflow: hidden; /* Hide any content that overflows the container */
+  position: relative; /* Set position context for absolute positioning inside */
+  font-family: 'Consolas', 'Menlo', monospace; /* Set a monospaced font for the hacker-like appearance */
+  font-size: 16px; /* Set font size, adjust as needed */
+  color: #0f0; /* Set text color to green */
+}

@@ -1,0 +1,45 @@
+src/
+|-- components/
+|   |-- common/
+|   |   |-- Button/
+|   |   |   |-- index.js
+|   |   |   |-- styles.css
+|   |   |-- Header/
+|   |   |   |-- index.js
+|   |   |   |-- styles.css
+|   |   |-- Footer/
+|   |       |-- index.js
+|   |       |-- styles.css
+|   |-- featureSpecificComponent/
+|       |-- SpecificComponent/
+|           |-- index.js
+|           |-- styles.css
+|
+|-- pages/
+|   |-- HomePage/
+|   |   |-- index.js
+|   |   |-- styles.css
+|   |-- AboutPage/
+|       |-- index.js
+|       |-- styles.css
+|
+|-- hooks/
+|   |-- useCustomHook.js
+|
+|-- utils/
+|   |-- utility.js
+|
+|-- context/
+|   |-- MyContext.js
+|
+|-- assets/
+|   |-- images/
+|   |   |-- logo.png
+|   |-- styles/
+|       |-- global.css
+|
+|-- services/
+|   |-- api.js
+|
+|-- App.js
+|-- index.js
