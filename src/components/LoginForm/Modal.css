@@ -1,0 +1,35 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #00ff00;
+  }  
+
+  .close-button {
+    background-color: #333333;
+    color: #00ff00;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .close-button:hover {
+    background-color: black;
+  }
+  

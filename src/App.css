@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+:root {
+  --button-bg-color: #4CAF50; /* Primary button background color */
+  --button-hover-bg-color: #45a049; /* Button background color on hover */
+  --modal-content-bg-color: #ffffff; /* Modal content background color */
+  --button-text-color: white; /* Button text color */
+  --bg-color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  background-color: var(--button-bg-color); /* Use variable for background color */
+  color: var(--button-text-color); /* Use variable for text color */
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button:hover {
+  background-color: var(--button-hover-bg-color); /* Use variable for hover background */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.modal-content {
+  background-color: var(--bg-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--button-bg-color);
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: var(--button-hover-bg-color-bg-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+h2 {
+  color: #716d6d;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.centered-image-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.centered-image-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.centered-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height: auto;
+  box-shadow: inset 0 0 10px #000;
+  border-radius: 1%;
+  z-index: 2;
+  border: 2px solid #333;
+  opacity: 0.8;
+  box-shadow:
+    inset 0 0 8px #000,
+    0 0 15px 4px rgba(0, 0, 0, 0.6),
+    0 0 20px 7px rgba(0, 0, 0, 0.4),
+    0 0 25px 10px rgba(0, 0, 0, 0.2);
 }

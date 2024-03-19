@@ -1,0 +1,21 @@
+.about-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.top-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+}
+
+.about-text {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}

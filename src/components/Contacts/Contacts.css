@@ -1,0 +1,17 @@
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+  
+  .contacts-container a {
+    margin-left: 1rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .contacts-container a:hover {
+    transform: scale(1.1);
+  }
+  
