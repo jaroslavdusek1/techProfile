@@ -42,7 +42,7 @@ export const AboutPage = () => {
   return (
     <div className="about-page-container">
       <div className="about-text">
-        {/* <h2>about me</h2> */}
+        <h2>about me</h2>
         <div>
           {aboutTextLines.slice(0, currentLineIndex + 1).map((line, index) => (
             <React.Fragment key={index}>

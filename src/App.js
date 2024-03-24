@@ -4,9 +4,8 @@ import { AboutPage } from './pages/About/About.jsx';
 import HomePage from './pages/HomePage/Home.jsx';
 import LoginModal from './components/LoginForm/LoginForm';
 import TypingText from './components/Introductory/TypingText';
+import { Projects } from './pages/Projects/Project.jsx';
 import './App.css';
-
-const Contact = () => <h2>Contact Page</h2>;
 
 const App = () => {
   const [isModalOpen, setModalOpen] = useState(true);
@@ -36,7 +35,7 @@ const App = () => {
             <Routes>
               <Route path="/home" element={<HomePage />} />
               <Route path="/about" element={<AboutPage />} />
-              <Route path="/projects" element={<Contact />} />
+              <Route path="/projects" element={<Projects />} />
             </Routes>
           </>
         )}
